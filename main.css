@@ -1,0 +1,29 @@
+
+body {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-family: sans-serif;
+    color: rgb(68, 131, 131);
+    letter-spacing: 2px;
+    line-height: .5em;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-family: sans-serif;
+    color: rgb(97, 143, 204);
+    letter-spacing: 2px;   
+    line-height: .5em;
+}
+
+h4 {
+    font-variant: small-caps;
+    font-family: sans-serif;
+    color: rgb(97, 143, 204);
+    letter-spacing: 2px;   
+    line-height: .5em; 
+}
