@@ -4,26 +4,44 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-variant: small-caps;
-    font-family: sans-serif;
-    color: rgb(68, 131, 131);
-    letter-spacing: 2px;
-    line-height: .5em;
-}
-
 h2 {
     font-variant: small-caps;
     font-family: sans-serif;
-    color: rgb(97, 143, 204);
+    color: rgb(151, 73, 125);
     letter-spacing: 2px;   
     line-height: .5em;
 }
 
-h4 {
-    font-variant: small-caps;
-    font-family: sans-serif;
-    color: rgb(97, 143, 204);
-    letter-spacing: 2px;   
-    line-height: .5em; 
+#radio-container input[type="radio"]{
+    display: none;
 }
+
+#radio-container label {
+    display: inline-block;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: rgba(151, 73, 125, 0.377);
+    color: #fff;
+    margin: 5px 10px;
+    transition: .2s ease-out;
+}
+
+#radio-container input[type="radio"]:checked+label {
+    background-color: rgb(151, 73, 125);
+    border: solid thin #fff;
+    color: #fff;
+    transition: .2s ease-in;
+}
+
+input[type="number"], #outputTemp {
+    font-size: 18px;
+    color: rgb(151, 73, 125);
+    border: solid 2px rgb(151, 73, 125);
+    width: 11.2em;
+}
+
+
