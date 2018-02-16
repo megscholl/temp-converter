@@ -7,24 +7,31 @@
     <title>Temperature Converter</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body id="index">
 
     <!-- <h1>single page navigation</h1> -->
     <h2>Temperature Converter</h2>
 
-        <input type="number" id="degree" placeholder="Enter temperature here">
+
+            <input type="number" id="userDegreeInput" style="text-align: center" placeholder="0&#176;F">
+
         <div id="radio-container">
-            <input type="radio" id="celcius" name="temp" value="celcius">
-                <label for="celcius">&#176;C</label>
-            <input type="radio" id="fahrenheight" name="temp" value="fahrenheight">
-                <label for="fahrenheight">&#176;F</label>
+            <input type="radio" id="celsius" name="temp" value="celsius" checked>
+            <label for="celsius">&#176;C</label>
+            <input type="radio" id="fahrenheit" name="temp" value="fahrenheit">
+            <label for="fahrenheit">&#176;F</label>
         </div>
+
         <br>
 
-            <input type="button" id="converter" value="Convert tempterature"></button>
-            <input type="reset" value="Clear">
+            <button type="button" id="converter" value="Convert tempterature">Convert</button>
+            <button type="reset" id="clearBtn" value="Clear">Clear</button>
         <br>
-            <div id="outputTemp"></div>
+
+            <div id="outputTemp">
+
+
+            </div>
         
 
     <script src="converter.js"></script>
