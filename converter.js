@@ -42,7 +42,7 @@ function toFahrenheit () {
   // console.log("F is working", fahrMath.toFixed());
   if(fahrMath > 90){
     result.style.color = "red";
-  } else if(fahrMath < 32) {
+  } else if(fahrMath <= 32) {
     result.style.color = "blue";
   } else if(fahrMath <= 90 && fahrMath >= 32) {
     result.style.color = "green";
